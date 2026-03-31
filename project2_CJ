@@ -1,0 +1,8 @@
+import pandas as pd
+
+df = pd.read_csv("BC Census 2016 data.csv")
+
+# print(df.head())
+# print(df.columns)
+# high_burden = df[df["shelt_rent_30plus_rate"] > 50]
+# print(high_burden)
